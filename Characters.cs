@@ -8,7 +8,7 @@ namespace Lektionsprojekt
 {
     internal abstract class Characters 
     {
-        string? Name { get; set; }
+        
         string? Description { get; set; }
 
         protected int Hp { get; set; }

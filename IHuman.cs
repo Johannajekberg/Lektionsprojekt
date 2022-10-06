@@ -10,7 +10,9 @@ namespace Lektionsprojekt
     {
         string Name { get; set; }
         string Description { get; set; }
+        Dictionary<string,int> Inventory { get; set; }
 
+        void Trade();
         
     }
 }
